@@ -1,0 +1,295 @@
+/*Tamaño grande*/
+@media screen and (min-width:992px) {
+
+    body {
+        background: rgb(247, 247, 249);
+    }
+
+    h1 {
+        text-align: center;
+        margin: 40px;
+    }
+
+    .seccion1 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .cuadro1 {
+        background: rgb(235, 226, 204);
+        width: 30%;
+        border: 2px solid black;
+        float: left;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .cuadro2 {
+        background: rgb(235, 226, 204);
+        width: 30%;
+        border: 2px solid black;
+        float: left;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .cuadro3 {
+        background: rgb(235, 226, 204);
+        width: 30%;
+        border: 2px solid black;
+        float: left;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+
+    .titulo_cuadro1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 120px;
+        height: 60px;
+        background-color: rgb(218, 218, 52);
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    .titulo_cuadro2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100px;
+        height: 60px;
+        background-color: brown;
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    .titulo_cuadro3 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100px;
+        height: 60px;
+        background-color: rgb(49, 163, 233);
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    div p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 20px;
+        margin: 5%;
+        margin-top: 15%;
+    }
+
+
+}
+
+
+/*Tamaño mediano*/
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    body {
+        background: rgb(247, 247, 249);
+    }
+
+    header {
+        width:100%;
+    }
+
+
+    h1 {
+        text-align: center;
+        margin: 40px;
+    }
+
+    .seccion1 {
+        width: 100%;
+        margin: 0;
+
+      }
+      
+
+    .cuadro1 {
+        background: rgb(235, 226, 204);
+        width: 47%;
+        border: 2px solid black;
+        float: left;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .cuadro2 {
+        background: rgb(235, 226, 204);
+        width: 47%;
+        border: 2px solid black;
+        float: left;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .cuadro3 {
+        background: rgb(235, 226, 204);
+        width: 96.5%;
+        border: 2px solid black;
+        float:left;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+
+    .titulo_cuadro1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 120px;
+        height: 60px;
+        background-color: rgb(218, 218, 52);
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    .titulo_cuadro2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100px;
+        height: 60px;
+        background-color: brown;
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    .titulo_cuadro3 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100px;
+        height: 60px;
+        background-color: rgb(49, 163, 233);
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    div p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 20px;
+        margin: 5%;
+        margin-top: 10%;
+    }
+
+    
+    
+    }
+
+
+
+/*Tamaño pequeño*/    
+@media screen and (max-width:767px) {
+    body {
+        background: rgb(247, 247, 249);
+    }
+
+    header {
+        text-align: center;
+        width:100%;
+    }
+
+
+    h1 {
+        text-align: center;
+        margin: 30px;
+    }
+
+    .seccion1 {
+        width: 100%;
+    }
+
+
+    .cuadro1 {
+        background: rgb(235, 226, 204);
+        width: 95%;
+        border: 2px solid black;
+        float: bottom;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .cuadro2 {
+        background: rgb(235, 226, 204);
+        width: 95%;
+        border: 2px solid black;
+        float: bottom;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .cuadro3 {
+        background: rgb(235, 226, 204);
+        width: 95%;
+        border: 2px solid black;
+        float:bottom;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+
+    .titulo_cuadro1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 120px;
+        height: 60px;
+        background-color: rgb(218, 218, 52);
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    .titulo_cuadro2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100px;
+        height: 60px;
+        background-color: brown;
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    .titulo_cuadro3 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100px;
+        height: 60px;
+        background-color: rgb(49, 163, 233);
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: right;
+
+    }
+
+    div p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 20px;
+        margin: 5%;
+        margin-top: 15%;
+    }
+
+    
+    
+    }
